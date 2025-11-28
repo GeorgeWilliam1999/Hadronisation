@@ -2,7 +2,7 @@
 
 This project demonstrates **hadronization simulation** using the **Schwinger model** (1+1D QED) implemented with **Qiskit** quantum computing. The Schwinger model serves as a simplified toy model for Quantum Chromodynamics (QCD), allowing us to study fundamental phenomena like confinement and hadronization on quantum computers.
 
-## 🌟 Overview
+## Overview
 
 The Schwinger model describes the interaction between fermions (quarks) and gauge fields (gluons) in 1+1 dimensions. This project implements:
 
@@ -12,7 +12,7 @@ The Schwinger model describes the interaction between fermions (quarks) and gaug
 - **String Breaking Simulation**: Modeling confinement and hadron formation
 - **Observable Measurements**: Tracking particle numbers, correlations, and energy
 
-## 🎯 Physical Motivation
+## Physical Motivation
 
 In QCD, when quarks are separated, the energy stored in the color flux tube (string) eventually becomes large enough to create new quark-antiquark pairs, leading to hadronization. The Schwinger model captures this essential physics in a setting suitable for quantum simulation.
 
@@ -23,7 +23,7 @@ In QCD, when quarks are separated, the energy stored in the color flux tube (str
 - ✅ **Hadronization**: Formation of bound states (hadrons)
 - ✅ **Quantum Dynamics**: Full quantum mechanical evolution
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -46,7 +46,7 @@ In QCD, when quarks are separated, the energy stored in the color flux tube (str
    pip install -r requirements.txt
    ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Running the Jupyter Notebook
 
@@ -88,7 +88,7 @@ print(f"Ground state energy: {results['ground_state_energy']}")
 breaking_results = simulator.simulate_string_breaking(separation_distance=4)
 ```
 
-## 📊 Example Results
+## Example Results
 
 The simulation produces several key observables:
 
@@ -107,7 +107,7 @@ The simulation produces several key observables:
 - **Correlation functions**: `⟨σ_i^+ σ_j^-⟩`
 - **Energy expectation**: `⟨H⟩`
 
-## 🧮 The Schwinger Model
+## The Schwinger Model
 
 ### Hamiltonian
 
@@ -172,7 +172,7 @@ circuit = model.create_hadronization_circuit(
 )
 ```
 
-## 📈 Performance
+## Performance
 
 ### Classical Simulation Limits
 - **6 qubits**: Fast simulation (seconds)
@@ -184,7 +184,7 @@ circuit = model.create_hadronization_circuit(
 - **Error mitigation**: Can benefit from error correction
 - **Scalability**: Linear scaling with system size
 
-## 🔗 Applications
+## Applications
 
 This simulation framework can be extended for:
 
@@ -194,7 +194,7 @@ This simulation framework can be extended for:
 - **Phase transitions**: Critical phenomena studies
 - **Quantum algorithms**: Improved simulation techniques
 
-## 📚 References
+## References
 
 ### Scientific Background
 1. Schwinger, J. (1962). "Gauge Invariance and Mass. II." Physical Review 128, 2425.
@@ -206,7 +206,7 @@ This simulation framework can be extended for:
 2. Qiskit Documentation: https://qiskit.org/
 3. Quantum Algorithm Zoo: https://quantumalgorithmzoo.org/
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Areas for improvement:
 
@@ -224,18 +224,14 @@ pip install -r requirements.txt
 pip install -e .  # Development installation
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **IBM Qiskit Team**: For the excellent quantum computing framework
 - **Lattice QCD Community**: For theoretical foundations
 - **Quantum Computing Researchers**: For algorithmic innovations
 
 ---
-
-**Happy Hadronizing!** 🎉 
-
-For questions or issues, please open a GitHub issue or contact the maintainers.
