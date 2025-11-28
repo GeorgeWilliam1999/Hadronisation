@@ -1,0 +1,24 @@
+# Quantum Hadronization Simulation Requirements
+
+# Core quantum computing packages
+qiskit>=0.45.0
+qiskit-aer>=0.13.0
+qiskit-algorithms>=0.2.0
+qiskit-optimization>=0.5.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipython>=8.0.0
+ipywidgets>=8.0.0
+
+# Data analysis
+pandas>=1.5.0
+
+# Optional: for advanced visualizations
+plotly>=5.0.0
